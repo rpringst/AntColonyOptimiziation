@@ -15,6 +15,10 @@ public class Vertex {
         edges.add(edge);
     }
 
+    public int distanceToNeighbor(Vertex neighbor) {
+        return 0;
+    }
+
     public LinkedList<Edge> getEdges() {
         return edges;
     }
